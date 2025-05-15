@@ -9,7 +9,7 @@ public class Mage extends CharacterClass {
                 "🧙 Волшебник",
                 "Знание — сила, но магия — сила умноженная",
                 new Stats(8, 10, 10, 13, 11),
-                new Weapon("Посох новичка", 1, "melee")
+                new Weapon("Посох новичка", 1, "magic")
         );
     }
 

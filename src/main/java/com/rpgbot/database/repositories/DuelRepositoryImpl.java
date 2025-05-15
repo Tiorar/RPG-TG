@@ -1,7 +1,7 @@
 package com.rpgbot.database.repositories;
 
 import com.rpgbot.database.models.Character;
-import com.rpgbot.database.models.Duel;
+import com.rpgbot.entities.Duel;
 import com.rpgbot.database.models.DuelChallenge;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
@@ -40,7 +40,7 @@ public class DuelRepositoryImpl implements DuelRepository {
 
     @Override
     public void saveDuel(Duel duel) {
-        if (duel.getId() == null) {
+        if (DuelChallenge.getId() == null) {
             em.persist(duel);
         } else {
             em.merge(duel);
@@ -58,7 +58,7 @@ public class DuelRepositoryImpl implements DuelRepository {
 
     @Override
     public void completeDuel(Duel duel) {
-        duel.setCompleted(true);
+        DuelChallenge.setCompleted(true);
         em.merge(duel);
     }
 

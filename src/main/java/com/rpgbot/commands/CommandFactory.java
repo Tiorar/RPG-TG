@@ -1,6 +1,6 @@
 package com.rpgbot.commands;
 
-import com.rpgbot.bot.RpgBot;
+import com.rpgbot.RpgBot;
 import com.rpgbot.handlers.*;
 import com.rpgbot.database.repositories.*;
 import com.rpgbot.entities.Monster;
@@ -104,7 +104,7 @@ public class CommandFactory {
             case 1: return new Monster("Гоблин", 20, 3, 7);
             case 2: return new Monster("Гигантский червь", 30, 2, 10);
             case 3: return createBoss();
-            default: return new Monster("Слайм", 10, 1, 3);
+            default: return new Monster("Слайм", 15, 1, 3);
         }
     }
 

@@ -22,6 +22,6 @@ public class Archer extends CharacterClass {
     }
 
     public double getDodgeChance(Stats stats) {
-        return stats.getAgility() * 0.01;  // 13 agility = 13% шанс уклона
+        return stats.getAgility() * 0.02;  // 13 agility = 26% шанс уклона
     }
 }

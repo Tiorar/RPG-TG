@@ -1,6 +1,6 @@
 package com.rpgbot.commands;
 
-import com.rpgbot.bot.RpgBot;
+import com.rpgbot.RpgBot;
 
 public class UnknownCommandHandler implements Command {
     private final RpgBot bot;

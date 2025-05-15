@@ -4,8 +4,9 @@ import com.rpgbot.database.models.Character;
 import com.rpgbot.util.RandomUtil;
 import com.rpgbot.database.models.*;
 import com.rpgbot.database.repositories.*;
-import com.rpgbot.commands.*;
+import com.rpgbot.classes.*;
 import com.rpgbot.handlers.*;
+import com.rpgbot.entities.*;
 
 
 public class Battle {

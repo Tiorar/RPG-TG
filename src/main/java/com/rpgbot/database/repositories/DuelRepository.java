@@ -1,7 +1,7 @@
 package com.rpgbot.database.repositories;
 
 import com.rpgbot.database.models.Character;
-import com.rpgbot.database.models.Duel;
+import com.rpgbot.entities.Duel;
 import com.rpgbot.database.models.DuelChallenge;
 import java.util.List;
 import java.util.Optional;
